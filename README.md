@@ -76,9 +76,8 @@ own implementation if you prefer.
 
 ## Running the project
 Requirements:
-- NodeJS 16.x (run `nvm use` in root folder)
+- NodeJS 20.x (run `nvm use` in root folder)
 - Yarn cli
-- Serverless framework: run `npm install -g serverless`
 
 Install dependencies:
 
