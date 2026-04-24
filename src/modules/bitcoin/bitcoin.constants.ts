@@ -1,0 +1,1 @@
+export const ENERGY_KWH_PER_BYTE = 4.56;
