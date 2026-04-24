@@ -16,6 +16,7 @@ The system is designed with clear separation of concerns to allow future scaling
 
 - Energy consumption per transaction for a block
 - Total energy consumption per day (last N days)
+  - Fetching every block for a day can easily hit public API rate limits, so for this assignment it is limited for 10 blocks per day
 - Total energy consumption for a wallet address
 - Read-through ingestion (avoids repeated external API calls)
 

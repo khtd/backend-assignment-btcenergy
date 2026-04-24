@@ -98,7 +98,7 @@ export class EnergyQueryService {
     const limitedBlockSummaries = blockSummaries.slice(0, MAX_BLOCKS_PER_DAILY_QUERY);
 
     const blockEnergies = await mapWithConcurrency(
-      blockSummaries,
+      limitedBlockSummaries,
       5,
       (block) => this.getBlockEnergy(block.hash),
     );
