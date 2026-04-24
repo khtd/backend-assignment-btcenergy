@@ -53,7 +53,7 @@ No I/O, fully testable.
 
 Coordinates:
 ```
-GraphQL → Service → Repository → (Ingest if needed) → Process → Store → Return
+GraphQL → Service → Repository → (if needed: Ingest → Process → Store) → Return
 ```
 Implements **read-through ingestion**:
 - Data is fetched only if missing
